@@ -1,0 +1,61 @@
+/*
+Theme Name: MaxWebSolutions Test
+Author: Ben Buckley
+*/
+
+.jg-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: #fff;
+    z-index: 15;
+}
+
+.jg-container {
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.jg-top-background {
+    width: 100%;
+    height: 65vh;
+    border-radius: 25px 25px 0 0;
+    color: #fff;
+    font-size: 1rem;
+    background-image: url(http://localhost/wordpress/wp-content/uploads/2021/07/jg.png);
+    background-size: cover;
+}
+
+.jg-top h1 {
+    font-size: 5rem;
+    opacity: 100%;
+}
+
+.jg-top h3 {
+    font-size: 2.6rem;
+    opacity: 100%;
+}
+
+.jg-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(72, 178, 245, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 25px 25px 0 0;
+    padding: 2rem;
+}
+
+.jg-btn a {
+    border-radius: 10px;
+    border: 4px solid;
+}
+
+.br-all {
+    border-radius: 25px;
+}
