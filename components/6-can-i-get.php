@@ -11,5 +11,5 @@
             ?>
         </p>
     </div>
-    <img src="http://localhost/wordpress/wp-content/uploads/2021/07/istockphoto-1270488580-1024x1024-1.jpg" />
+    <img src="http://localhost/wordpress/wp-content/uploads/2021/07/nurse.png" />
 </div>

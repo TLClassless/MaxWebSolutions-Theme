@@ -16,13 +16,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#">Who is John Gillen</a>
+          <a class="nav-link" href="#whois">Who is John Gillen</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">My recovery centres</a>
+          <a class="nav-link" href="#centres">My recovery centres</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">What is NAD+</a>
+          <a class="nav-link" href="#NAD">What is NAD+</a>
         </li>
       </ul>
     </div>

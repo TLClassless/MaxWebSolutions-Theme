@@ -1,4 +1,4 @@
 <div class="brand-cont">
-    <img src="http://localhost/wordpress/wp-content/uploads/2021/07/bionad.png" />
+    <?php echo do_shortcode('[metaslider id="50"]'); ?>
     <!-- replace this with slider -->
 </div>

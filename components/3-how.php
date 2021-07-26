@@ -1,6 +1,6 @@
 <!-- Replace all text with wp api data -->
 
-<div class="jg-container">
+<div id="centres" class="jg-container">
     <div class="jg-section">
         <div class="jg-how-title">
             <h2>How I'm helping people beat </h2>

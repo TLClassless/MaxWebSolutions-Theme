@@ -1,6 +1,6 @@
 <!-- Replace all text with wp api data -->
 
-<div class="jg-container">
+<div id="whois" class="jg-container">
     <div class="jg-section">
         <span class="jg-whois-title">
             <h2>Who is</h2>
