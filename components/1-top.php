@@ -1,5 +1,3 @@
-<!-- Replace all text with wp api data -->
-
 <div class="jg-container">
     <div class="jg-top-background">
         <div class="jg-top">

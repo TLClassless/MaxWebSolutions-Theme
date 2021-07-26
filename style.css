@@ -3,12 +3,25 @@ Theme Name: MaxWebSolutions Test
 Author: Ben Buckley
 */
 
-.jg-overlay {
-    height: 100vh;
-    width: 100vw;
+/* Google font import  */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&family=Roboto+Slab&display=swap');
+
+/* Global styles */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.sticky-head {
+    width: 100%;
     position: fixed;
-    background-color: #fff;
-    z-index: 15;
+}
+
+.jg-page-container {
+    padding-top: 4.2rem;
 }
 
 .jg-container {
@@ -17,37 +30,93 @@ Author: Ben Buckley
     padding-left: .75rem;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 2rem;
+    background-color: #fdfdfd;
+}
+
+.blue-bg {
+    background-color: #e8f3f7;
+}
+
+.jg-section {
+    width: 100%;
+    padding-left:1.25rem;
+    padding-right: 1.25rem;
+}
+
+.jg-emphasis {
+    font-weight: 800;
+    color: rgb(47, 134, 189);
+}
+
+.jg-container h2 {
+    font-weight: 600;
+}
+
+/* header styles */
+
+.navbar {
+    background-color: #fff;
+}
+
+.jg-brand {
+    font-family: 'Roboto Slab', serif;
+}
+
+.jg-fixed-border {
+    position: fixed;
+    z-index: 1000;
+    height: 100vh;
+    width: 100%;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #fff;
+    border-radius: 50px;
+    outline-style: solid;
+    outline-width: 20px;
+    outline-color: #fff;
+    outline-offset: -5px;
+}
+
+/* top styles */
+
+.jg-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: #fff;
+    z-index: 15;
 }
 
 .jg-top-background {
     width: 100%;
-    height: 65vh;
-    border-radius: 25px 25px 0 0;
+    height: 60vh;
     color: #fff;
     font-size: 1rem;
     background-image: url(http://localhost/wordpress/wp-content/uploads/2021/07/jg.png);
     background-size: cover;
+    background-position: center;
 }
 
 .jg-top h1 {
-    font-size: 5rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
     opacity: 100%;
 }
 
 .jg-top h3 {
-    font-size: 2.6rem;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.8rem;
     opacity: 100%;
 }
 
 .jg-top {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
     background-color: rgb(72, 178, 245, 0.5);
     width: 100%;
     height: 100%;
-    border-radius: 25px 25px 0 0;
     padding: 2rem;
 }
 
@@ -58,4 +127,87 @@ Author: Ben Buckley
 
 .br-all {
     border-radius: 25px;
+}
+
+/* whois styles */
+
+.jg-whois-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+
+.jg-btn {
+    margin-bottom: 1rem;
+}
+
+/* how styles */
+
+.jg-how-title {
+    padding: 3rem 3rem;
+    text-align: center;
+}
+
+.jg-how-info {
+    padding: 0 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.jg-how-img {
+    border-radius: 10px;
+}
+
+/* nad therapy styles */
+
+.jg-whatis-title {
+    margin: 5rem 0;
+}
+
+.jg-whatis-subtitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+/* brand bar styles */
+
+.brand-cont {
+    display: flex;
+    width: 100%;
+    height: 14rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-cont img {
+    z-index:5;
+    width: 50%;
+}
+
+.brand-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(72, 178, 245, 0.5);
+    z-index: 10;
+}
+
+/* can styles */
+
+.jg-cani-subtitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+/* contact */
+
+.jg-contact-title {
+    padding: 3rem 0;
+}
+
+.jg-contact-method {
+    padding: 0.5rem 0;
 }
