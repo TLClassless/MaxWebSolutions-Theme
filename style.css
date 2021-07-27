@@ -156,8 +156,8 @@ img {
     margin-bottom: 5rem;
 }
 
-.nivo-main-image {
-    border-radius: 100px;
+.jg-how-images {
+    display: none;
 }
 
 /* nad therapy styles */
@@ -179,6 +179,10 @@ img {
     width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.jg-brand-images {
+    display: none;
 }
 
 /* can styles */
@@ -227,9 +231,193 @@ img {
 /* ~~~~~~~~ DESKTOP STYLING ~~~~~~~~ */
 
 @media screen and (min-width: 1024px) {
+    
+    /* top */
     .jg-top-background {
         height: 100vh;
     }
+
+    .jg-top-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 8rem;
+        height: 70%;
+    }
+
+    .jg-top h1 {
+        font-size: 7rem;
+    }
+
+    .jg-top h3 {
+        max-width: 50%;
+        font-size: 3.5rem;
+    }
+
+    .jg-top-btn {
+        font-size: 1.5rem;
+    }
+
+    /* whois */
+
+    .jg-whois-container {
+        display: flex;
+        height: 100vh;
+        font-size: 1.4rem;
+    }
+
+    .jg-whois-title {
+        width: 100%;
+        text-align: left;
+    }
+
+    .jg-whois-title h2 {
+        width: 100%;
+        font-size: 4rem;
+    }
+
+    .jg-whois-content {
+        width: 100%;
+        padding: 2rem;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jg-whois-img {
+        object-fit: cover;
+    }
+
+    /* how */
+
+    .jg-how-content {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .jg-how-title h2 {
+        font-size: 3rem;
+    }
+
+    .jg-how-info {
+        width: 100%;
+        padding: 0 20%;
+        font-size: 1.4rem;
+    }
+
+    .jg-how-slides {
+        display: none;
+    }
+
+    .jg-how-images {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .jg-how-images img {
+        width: 30%;
+        border-radius: 20px;
+    }
+
+    /* NAD+ */
+
+    .jg-whatis-section {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jg-whatis-title h2 {
+        padding-left: 4rem;
+        font-size: 3rem;
+    }
+
+    .jg-whatis-subtitle {
+        padding-left: 4rem;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .jg-whatis-content {
+        font-size: 1.5rem;
+        padding: 0 4rem;
+    }
+
+    /* brands */
+
+    .jg-brand-slider {
+        display: none;
+    }
+
+    .jg-brand-images {
+        display: flex;
+        height: 25rem;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #e8f3f7;
+    }
+
+    .jg-brand-images img {
+        height: 8rem;
+        width: auto;
+        filter: opacity(50%);
+    }
+
+    /* cani */
+
+    .jg-cani-container {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        padding: 4rem;
+    }
+
+    .jg-cani-subtitle {
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+
+    .jg-cani-content p {
+        font-size: 1.4rem;
+    }
+
+    .jg-cani-img {
+        height: 70%;
+        width: auto;
+        margin: 0 5rem;
+        border-radius: 20px;
+    }
+
+    /* contact */
+
+    .jg-contact-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem;
+        height: 50vh;
+    }
+
+    .jg-contact-title {
+        padding-top: 0;
+    }
+
+    .jg-contact-title h2 {
+        font-size: 2.5rem;
+    }
+
+    .jg-cnt-information {
+        padding: 0 2rem;
+    }
+
+    .jg-cnt-information p {
+        font-size: 1.4rem;
+    }
+
 }
 
 /* ~~~~~~~~ TABLET STYLING ~~~~~~~~ */
