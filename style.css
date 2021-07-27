@@ -89,6 +89,13 @@ img {
     z-index: 15;
 }
 
+.jg-top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+}
+
 .jg-top-background {
     width: 100%;
     height: 60vh;
@@ -185,6 +192,10 @@ img {
     display: none;
 }
 
+.jg-brand-slider-tablet {
+    display: none;
+}
+
 /* can styles */
 
 .jg-cani-subtitle {
@@ -242,7 +253,7 @@ img {
         flex-direction: column;
         justify-content: space-evenly;
         padding-left: 8rem;
-        height: 70%;
+        height: 90%;
     }
 
     .jg-top h1 {
@@ -352,6 +363,10 @@ img {
         display: none;
     }
 
+    .jg-brand-slider-tablet {
+        display: none;
+    }
+
     .jg-brand-images {
         display: flex;
         height: 25rem;
@@ -423,5 +438,150 @@ img {
 /* ~~~~~~~~ TABLET STYLING ~~~~~~~~ */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* top */
+
+    .jg-top-background {
+        height: 100vh;
+    }
+
+    .jg-top {
+        height: 100vh;
+    }
+
+    .jg-top-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 70%;
+    }
+
+    .jg-top-content h1 {
+        font-size: 5rem;
+    }
+
+    .jg-top-content h3 {
+        max-width: 60%;
+        font-size: 3rem;
+    }
+
+    .jg-top-btn {
+        font-size: 1.25rem;
+    }
+
+    /* whois */
+    .jg-whois-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80vh;
+    }
+
+    .jg-whois-title {
+        width: 100%;
+    }
+
+    .jg-whois-title h2 {
+        font-size: 2.5rem;
+    }
+
+    .jg-whois-content p {
+        font-size: 1.25rem;
+    }
+
+
+    /* how */
+
+    .jg-how-title h2 {
+        font-size: 2.5rem;
+    }
+
+    .jg-how-info p {
+        font-size: 1.25rem;
+    }
+
+    .jg-how-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
+    .jg-how-slides {
+        width: 70%;
+    }
+
+    /* nad */
+    .jg-whatis-section {
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .jg-whatis-title h2 {
+        font-size: 2.5rem;
+    }
+
+    .jg-whatis-subtitle {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .jg-whatis-content p {
+        font-size: 1.25rem;
+    }
+
+    /* brand */
+
+    .jg-brand-slider-tablet {
+        display: flex;
+    }
+
+    .jg-brand-slider {
+        display: none;
+    }
+
+    /* cani */
+
+    .jg-cani-subtitle {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 0;
+    }
+
+    .jg-cani-content p {
+        font-size: 1.25rem;
+    }
+
+    .jg-cani-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+    }
+
+    .jg-cani-img {
+        width: 25rem;
+        height: 30rem;
+        object-fit: cover;
+        border-radius: 15px;
+        margin-top: 2rem;
+    }
+
+    /* contact */
+    .jg-contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 90vh;
+    }
+
+    .jg-contact-title h2 {
+        font-size: 2.5rem;
+    }
+
+    .jg-cnt-information p {
+        font-size: 1.2rem;
+    }
 }

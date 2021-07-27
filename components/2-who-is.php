@@ -16,7 +16,7 @@
                     ?>
                 </p>
             
-            <div class="wp-block-button is-style-outline jg-btn jg-whois-btn"><a class="wp-block-button__link" href="#centres">Find Out More</a></div>
+            <div class="wp-block-button is-style-outline jg-btn jg-whois-btn"><a class="wp-block-button__link" href="#contact">Contact John</a></div>
             </div>
         </div>
         <img class="jg-whois-img" src="http://localhost/wordpress/wp-content/uploads/2021/07/support.jpg" />
