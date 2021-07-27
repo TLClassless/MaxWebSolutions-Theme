@@ -29,12 +29,12 @@
                         }
                     }
                 ?>    
-                <input type="text" name="name" placeholder= "Name*" required />
-                <input type="number" name="phone" placeholder="Phone Number*" />
-                <input type="time" name="time" placeholder="Best time to call" />
-                <input type="email" name="email" placeholder="Email Address*" required />
-                <textarea rows="4" name="msg" placeholder="Message*" form="contact-form" required></textarea>
-                <input type="submit" value="Submit" name="submit" />
+                <input class="jg-form-name" type="text" name="name" placeholder= "Name*" required />
+                <input class="jg-form-number" type="tel" name="phone" placeholder="Phone Number*" required/>
+                <input class="jg-form-time" type="time" name="time" placeholder="Best time to call" />
+                <input class="jg-form-email" type="email" name="email" placeholder="Email Address*" required />
+                <textarea class="jg-form-textarea" rows="4" name="msg" placeholder="Message*" form="contact-form" required></textarea>
+                <input class="jg-form-submit" type="submit" value="Submit" name="submit" />
             </form>
         </div>
     </div>

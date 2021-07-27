@@ -16,6 +16,6 @@
             </p>
         </div>
     </div>
-        <!-- replace with slider plugin -->
-        <img class="jg-how-img" src="http://localhost/wordpress/wp-content/uploads/2021/07/Nova-Entrance.jpeg">
+    <?php echo do_shortcode('[metaslider id="97"]'); ?>
+    <div id="NAD"></div>
 </div>

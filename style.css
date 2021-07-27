@@ -5,7 +5,6 @@ Author: Ben Buckley
 
 /* Google font import  */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&family=Roboto+Slab&display=swap');
 
 /* Global styles */
@@ -50,6 +49,7 @@ img {
 }
 
 .jg-container h2 {
+    font-family: 'Lexend', sans-serif;
     font-weight: 600;
 }
 
@@ -156,8 +156,8 @@ img {
     margin-bottom: 5rem;
 }
 
-.jg-how-img {
-    border-radius: 10px;
+.nivo-main-image {
+    border-radius: 100px;
 }
 
 /* nad therapy styles */
@@ -177,22 +177,8 @@ img {
 .brand-cont {
     display: flex;
     width: 100%;
-    height: 14rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
-    align-items: center;
-    justify-content: center;
-}
-
-.brand-cont img {
-    z-index:5;
-    width: 50%;
-}
-
-.brand-overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(72, 178, 245, 0.5);
-    z-index: 10;
 }
 
 /* can styles */
@@ -211,4 +197,43 @@ img {
 
 .jg-contact-method {
     padding: 0.5rem 0;
+}
+
+.jg-form-name, .jg-form-number, .jg-form-email, .jg-form-textarea {
+    width: 100%;
+}
+
+.jg-form-time {
+    width: 50%;
+}
+
+.jg-form-name, .jg-form-number, .jg-form-email, .jg-form-textarea, .jg-form-time {
+    border: none;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+}
+
+.jg-form-submit {
+    padding: .5rem;
+    width: 10rem;
+    background-color: rgb(10, 10, 10);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+}
+
+/* ~~~~~~~~ DESKTOP STYLING ~~~~~~~~ */
+
+@media screen and (min-width: 1024px) {
+    .jg-top-background {
+        height: 100vh;
+    }
+}
+
+/* ~~~~~~~~ TABLET STYLING ~~~~~~~~ */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
 }
