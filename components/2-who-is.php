@@ -19,6 +19,6 @@
             <div class="wp-block-button is-style-outline jg-btn jg-whois-btn"><a class="wp-block-button__link" href="#contact">Contact John</a></div>
             </div>
         </div>
-        <img class="jg-whois-img" src="http://localhost/wordpress/wp-content/uploads/2021/07/support.jpg" />
+        <img class="jg-whois-img" src="wp-content/uploads/2021/07/support.jpg" /> 
     </div>
 </div>

@@ -27,6 +27,6 @@ if (isset($_POST['submit']))
     }
 }
 
-header('Location: http://localhost/wordpress/');
+header('Location: /wordpress/');
 exit;
 ?>

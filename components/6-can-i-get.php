@@ -14,7 +14,7 @@
                 </p>
             </div>
         </div>
-        <img class="jg-cani-img" src="http://localhost/wordpress/wp-content/uploads/2021/07/nurse.png" />
+        <img class="jg-cani-img" src="wp-content/uploads/2021/07/nurse.png" />
     </div>
 </div>
 <div id="contact"></div>

@@ -19,9 +19,9 @@
         </div>
         <div class="jg-how-slides"><?php echo do_shortcode('[metaslider id="97"]'); ?></div>
         <div class="jg-how-images">
-            <img src="http://localhost/wordpress/wp-content/uploads/2021/07/asanalodgelogo.jpg" />
-            <img src="http://localhost/wordpress/wp-content/uploads/2021/07/novarecoverylogo.jpg" />
-            <img src="http://localhost/wordpress/wp-content/uploads/2021/07/asanalodgelogo.jpg" />
+            <img src="wp-content/uploads/2021/07/asanalodgelogo.jpg" />
+            <img src="wp-content/uploads/2021/07/novarecoverylogo.jpg" />
+            <img src="wp-content/uploads/2021/07/asanalodgelogo.jpg" />
         </div>
     </div>
     <div id="NAD"></div>
